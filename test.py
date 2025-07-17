@@ -1,3 +1,5 @@
-n1=float(input("Enter the first number:"))
-n2=float(input("Enter the first number:"))
-print(f"n1+n2={n1+n2}")
+y=0
+for i in range(1,6):
+    x=input("Enter a number:")
+    y=y+int(x)
+print(f"the result={y}")
